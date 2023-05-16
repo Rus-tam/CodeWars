@@ -6,5 +6,3 @@ export function findShort(s: string): number {
     .map((item) => item.length)
     .sort((a, b) => a - b)[0];
 }
-
-// https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/typescript
