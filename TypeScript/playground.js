@@ -2,7 +2,7 @@ function playground(str) {
   return str
     .split(' ')
     .map((item) => item.length)
-    .sort()[0];
+    .sort();
 }
 
-console.log(playground('Hello world'));
+console.log(playground('lets talk about javascript the best language'));
